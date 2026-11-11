@@ -1,0 +1,9 @@
+*.bak
+*.bak-*
+*.bak_*
+*.orig
+.DS_Store
+Thumbs.db
+.env
+.user.ini
+error_log

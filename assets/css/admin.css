@@ -1,0 +1,215 @@
+/* RIFF Theme Admin Styles */
+
+/* ---- Wrap – override WP gray with white ---- */
+.riff-wrap {
+    background: #fff;
+    padding: 20px 24px 32px;
+    margin-right: 0;
+}
+
+/* ---- Page title ---- */
+.riff-page-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 20px;
+    padding: 4px 0;
+    line-height: 1.3;
+    color: #1d2327;
+    border-bottom: 1px solid #e0dedd;
+    padding-bottom: 16px;
+}
+
+.riff-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #6b4226;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    padding: 3px 10px;
+    border-radius: 4px;
+    line-height: 1.6;
+    vertical-align: middle;
+}
+
+/* ---- Notice ---- */
+.riff-wrap .notice {
+    margin: 0 0 16px;
+}
+
+/* ---- Tab nav ---- */
+.riff-tab-nav {
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    background: #f9f7f5;
+    padding: 0 4px;
+}
+
+.riff-tab-nav .nav-tab {
+    font-size: 13px;
+    padding: 9px 14px;
+    color: #555;
+    border-color: transparent;
+    background: transparent;
+    margin-bottom: -1px;
+}
+
+.riff-tab-nav .nav-tab:hover {
+    background: #fff;
+    color: #1d2327;
+    border-color: #ddd #ddd #fff;
+}
+
+.riff-tab-nav .nav-tab-active {
+    background: #fff;
+    color: #6b4226;
+    border-color: #ddd #ddd #fff;
+    font-weight: 600;
+}
+
+/* ---- Tab content area ---- */
+.riff-tab-content {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 28px 32px;
+    margin-bottom: 0;
+}
+
+/* ---- form-table ---- */
+.riff-tab-content .form-table {
+    margin-top: 0;
+    background: #fff;
+}
+
+.riff-tab-content .form-table th {
+    width: 200px;
+    padding: 18px 20px 18px 0;
+    font-weight: 600;
+    font-size: 13px;
+    color: #3c3c3c;
+    vertical-align: top;
+}
+
+.riff-tab-content .form-table td {
+    padding: 14px 0;
+    vertical-align: top;
+}
+
+.riff-tab-content .form-table tr {
+    border-bottom: 1px solid #f4f2f0;
+}
+
+.riff-tab-content .form-table tr:last-child {
+    border-bottom: none;
+}
+
+.riff-tab-content .form-table td p {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.riff-tab-content .form-table td label {
+    font-size: 12px;
+    color: #646970;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.riff-tab-content input[type="text"],
+.riff-tab-content input[type="url"],
+.riff-tab-content textarea {
+    background: #faf9f8;
+    border-color: #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.04);
+}
+
+.riff-tab-content input[type="text"]:focus,
+.riff-tab-content input[type="url"]:focus,
+.riff-tab-content textarea:focus {
+    border-color: #6b4226;
+    box-shadow: 0 0 0 1px #6b4226;
+    background: #fff;
+}
+
+/* ---- Save button ---- */
+.riff-save-btn.button {
+    background: #6b4226;
+    border-color: #4e2f1a;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 28px;
+    height: auto;
+    line-height: 1.6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background .15s;
+}
+
+.riff-save-btn.button:hover,
+.riff-save-btn.button:focus {
+    background: #4e2f1a;
+    border-color: #3a2010;
+    color: #fff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(107,66,38,.3);
+}
+
+p.submit {
+    padding: 20px 0 4px;
+    margin: 0;
+    border-top: 1px solid #e0dedd;
+}
+
+/* ---- Media wrap ---- */
+.riff-media-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.riff-media-preview {
+    min-width: 60px;
+}
+
+.riff-no-image {
+    font-size: 12px;
+    color: #8c8f94;
+    font-style: italic;
+}
+
+/* ---- Coming soon ---- */
+.riff-coming-soon {
+    padding: 56px 0;
+    text-align: center;
+}
+
+.riff-coming-soon__inner {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.riff-coming-soon__icon {
+    font-size: 36px;
+    line-height: 1;
+}
+
+.riff-coming-soon__text {
+    font-size: 14px;
+    color: #8c8f94;
+    margin: 0;
+}
+
+/* ---- WordPress color picker override ---- */
+.wp-picker-container .wp-color-result {
+    border-radius: 4px !important;
+}
